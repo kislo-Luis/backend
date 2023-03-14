@@ -1,5 +1,5 @@
 import Sequelize from "sequelize";
-export const sequelize = new Sequelize("products", "luis", "asd123", {
+export const sequelize = new Sequelize("product", "luis", "asd123", {
   hots: "localhot",
   dialect: "postgres",
 });
